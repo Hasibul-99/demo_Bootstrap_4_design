@@ -1,0 +1,255 @@
+/* ========================================= */
+/* 		   		General Styling	 			 */
+/* ========================================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    box-sizing: border-box; 
+    font-size: 14px;
+}
+  
+  *, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box; }
+  
+  *:focus {
+    outline: 0; }
+  
+  html {
+    -webkit-font-smoothing: antialiased; }
+
+ body {
+    background-color: #f5f5f5;  
+ }
+  
+  img {
+    max-width: 100%;
+    height: auto; }
+  
+  ol, ul {
+    list-style: none; }
+  
+  :focus {
+    outline: 0; }
+  
+  .clear {
+    clear: both;
+    line-height: 0;
+    font-size: 0; }
+  
+  .clearfix:after {
+    clear: both;
+    content: '.';
+    display: block;
+    visibility: hidden;
+    height: 0; }
+    .clearfix:after .test {
+      color: red; }
+  
+  .clearfix {
+    display: inline-block; }
+  
+  * html .clearfix {
+    height: 1%; }
+  
+  .clearfix {
+    display: block; }
+  
+  header,
+  nav,
+  section,
+  article,
+  aside,
+  footer {
+    display: block; }
+
+/* ============================ */
+/*            Preloader         */
+/* ============================ */
+
+.app-header .navigation {
+    background: #FFFFFF;
+    position: relative;
+    padding-bottom: 0; 
+}
+
+.app-header .navigation .nav-item {
+    width: 110px;
+}
+
+.app-header .navigation .nav-item.active {
+    border-bottom: 2px solid #16B4FC;
+}
+
+.app-header .navigation .nav-item.active .menu_icon{
+    color: #16B4FC;
+}
+
+.app-header .navigation .nav-item.active .menu-title {
+    color: #16B4FC;
+}
+
+/* .app-header .navigation .nav-profile {
+    margin-left: 20px;
+} */
+
+.app-header .navigation .nav-profile img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    margin-left: 10px;
+}
+
+.app-header .navigation .nav-item .menu_icon {
+    margin-right: 10px;
+}
+
+.app-header .navigation .nav-log-out {
+    color: #fd0000;
+}
+
+.main-content {
+    margin-top: 20px 
+}
+.dash-item-overlay .dash-item-title {
+    text-align: center;
+}
+.input-group .custom-select:not(:last-child), .input-group .form-control:not(:last-child) {
+    font-size: 11px;
+}
+
+.card-title {
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ccc;
+}
+
+.card-title span {
+    font-size: 18px;
+}
+
+.card-button {
+    width: 110px;
+    border-radius: 50px;
+}
+
+.card-reminder .reminder-time {
+    font-size: 22px;
+}
+
+.card-workshop .list-group-item {
+    padding: 0.25rem 1.25rem
+}
+
+.card-workshop .workshop-user {
+    font-size: 18px;
+}
+
+.bg-card-primary {
+    background-color: #16B4FC;
+}
+
+.color-default {
+    color: #16B4FC;
+}
+
+.color-ideal {
+    color: #0b6f9c;
+}
+
+.date-picker .gj-unselectable {
+    width: 115px;
+    background-color: #1AA4E3;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.date-picker .gj-unselectable .form-control {
+    background: #1AA4E3;
+    border-color: transparent;
+    height: 25px;
+    border-right: 1px solid #16B4FC;
+    color: #FFFFFF
+}
+
+.date-picker .gj-unselectable .input-group-append .btn-outline-secondary {
+    border: 0px;
+    padding-top: 0px;
+}
+
+.date-picker .gj-unselectable .input-group-append .btn-outline-secondary i {
+    top: 4px;
+    color: #FFFFFF;
+}
+
+.dash-item-overlay .dash-item-field .menu_icon{
+    font-size: 18px;
+}
+
+.dash-item-overlay .dash-item-field .total-employee{
+    font-size: 22px;
+    margin-top: -10px;
+}
+
+.dash-item-overlay .dash-item-field .employee-section {
+    width: 50%;
+    border-right: 1px solid #1AA4E3;
+}
+
+.dash-item-overlay .card-button, .bg-card-primary .card-button {
+    border-color: #FFFFFF;
+}
+
+.bg-card-primary .progres-list {
+    border-right: 1px solid #1AA4E3;
+}
+
+.bg-card-primary .progres-list .align-self-center {
+    font-size: 12px;
+    text-align: left;
+    width: 50%;
+}
+
+.bg-card-primary .progres-list .progress-section {
+    width: 50%;
+}
+
+.bg-card-primary .progres-list .progress-section .low-progress {
+   background-color: #FF5A5F;
+}
+
+.stretched-card .chart-container {
+    width: 102%;
+}
+
+.stretched-card .chart-container .chart-fields .ct-perfect-fourth .ct-series-c .ct-bar, .ct-series-c .ct-line, .ct-series-c .ct-point, .ct-series-c .ct-slice-donut {
+    stroke: #A7E3FF;
+}
+
+.stretched-card .chart-container .chart-fields .ct-series-b .ct-bar, .ct-series-b .ct-line, .ct-series-b .ct-point, .ct-series-b .ct-slice-donut {
+    stroke: #16B4FC;
+}
+
+
+.stretched-card .chart-container .chart-fields .ct-series-a .ct-bar, .ct-series-a .ct-line, .ct-series-a .ct-point, .ct-series-a .ct-slice-donut {
+    stroke: #107EB1;
+}
+
+.stretched-card .chart-container .chart-fields .chart-items {
+    display: inline-flex
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .stretched-card .chart-container {
+        width: 105%;
+    }
+
+    .chart-container .chart-container-filter .date-picker {
+        display: inline-block;
+    }
+}

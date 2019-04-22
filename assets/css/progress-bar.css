@@ -1,0 +1,27 @@
+.container {
+  padding: 10px 50px;
+  text-align: center;
+}
+
+.chart {
+  position: relative;
+  display: inline-block;
+  margin: 20px 10px;
+  color: #999;
+  font-size: 14px;
+  text-align: center;
+}
+
+.js_served_chart {
+    color: #FFFFFF;
+    font-size: 12px;
+    margin: 0px;
+}
+
+.chart canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+  
